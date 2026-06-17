@@ -7,7 +7,7 @@ class _BuildOnBoardingBody extends StatelessWidget {
   Widget build(BuildContext context) {
     return const Scaffold(
       body: Center(
-        child: Text('Onboarding '),
+        child: Text('Onboarding Screen'),
       ),
     );
   }
