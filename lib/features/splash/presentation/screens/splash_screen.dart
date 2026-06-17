@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:foodie/config/routes/app_routes.dart';
 import 'package:foodie/core/utils/app_assets.dart';
 import 'package:lottie/lottie.dart';
 

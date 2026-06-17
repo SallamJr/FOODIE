@@ -11,6 +11,7 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_bloc: ^9.1.0
+  flutter_svg: ^2.3.0
   lottie: ^3.3.1
 
 dev_dependencies:
@@ -35,3 +36,10 @@ flutter_launcher_icons:
   ios: true
   image_path: "assets/images/suggested_logo.png"
   min_sdk_android: 21
+
+
+flutter_assets:
+  assets_path: assets/svgs
+  output_path: lib/core/utils
+  filename: assets.dart
+  field_prefix:
