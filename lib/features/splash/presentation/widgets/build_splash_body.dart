@@ -1,8 +1,22 @@
 part of '../screens/splash_screen.dart';
 
-class _BuildSplashBody extends StatelessWidget {
+class _BuildSplashBody extends StatefulWidget {
   const _BuildSplashBody();
 
+  @override
+  State<_BuildSplashBody> createState() => _BuildSplashBodyState();
+}
+
+class _BuildSplashBodyState extends State<_BuildSplashBody> {
+
+  @override
+   void initState() {
+     super.initState();
+     Future.delayed(const Duration(seconds: 3), () {
+       // ignore: use_build_context_synchronously
+       Navigator.pushReplacementNamed(context, AppRoutes.onboarding);
+     });
+   }
   /// There is additional way to define route names instead of using AppRoutes class.
   /// You can use a string directly in the route name.
   /// For example: '/splash' instead of AppRoutes.splash.
