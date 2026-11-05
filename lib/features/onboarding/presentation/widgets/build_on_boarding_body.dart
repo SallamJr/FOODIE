@@ -5,10 +5,15 @@ class _BuildOnBoardingBody extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      body: Center(
-        child: Text('Onboarding '),
-      ),
+    return const SafeArea(
+     bottom: false,
+      child: Stack(
+        children: [
+          _BuildOnBoardingHeaderImagesHolder(),
+        //  _BuildOnBoardingTextHolders(),
+    //      _BuildOnBoardingBottomControls(),
+        ],
+      )
     );
   }
 }
