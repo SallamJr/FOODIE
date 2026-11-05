@@ -7,6 +7,7 @@ environment:
   sdk: ^3.7.0
 
 dependencies:
+  carousel_slider: ^5.1.2
   equatable: ^2.0.7
   flutter:
     sdk: flutter
@@ -25,7 +26,6 @@ flutter:
   assets:
     - assets/animations/
     - assets/audios/
-    - assets/fonts/
     - assets/icons/
     - assets/images/
     - assets/svgs/
